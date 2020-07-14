@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+  <title>
+    Minesweeper
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="txt">
+      Minesweeper
+    </div>
+    <div id="grid"></div>
+    <audio controls id="click">
+      <source src="audio-click.wav" type="audio/ogg">
+    </audio>
+    <audio controls id="end">
+      <source src="audio-loose.wav" type="audio/ogg">
+    </audio>
+    <audio controls id="gotitAudio">
+      <source src="audio-hasdata.wav" type="audio/ogg">
+    </audio>
+    <div class="result"></div>
+  </div>
+  <script src="jquery-2.2.4.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
